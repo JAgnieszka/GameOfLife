@@ -19,7 +19,7 @@ public class Grid {
 			}
 		}
 		
-		return numNeighbors;
+		return numNeighbors-1;
 	}
 
 	public void addCell(Cell cell) {

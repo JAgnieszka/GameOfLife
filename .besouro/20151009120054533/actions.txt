@@ -136,3 +136,21 @@ EditAction 1444385805847 TestGrid.java 1098 3 19 3
 UnitTestCaseAction 1444385806153 TestGrid.java FAIL
 UnitTestSessionAction 1444385806153 TestGrid.testTwoNeighborsCellsOnDifferentRowsShouldHaveOneNeighbor FAIL
 EditAction 1444385892931 Grid.java 587 2 5 0
+UnitTestCaseAction 1444385895387 TestGrid.java OK
+UnitTestSessionAction 1444385895388 TestGrid OK
+RefactoringAction 1444386159025 TestCell.java ADD void testLiveCellWithNoNeiberhodShouldLive()/2 METHOD
+RefactoringAction 1444386740074 TestCell.java RENAME testLiveCellWithNoNeiberhodShouldLive()/2=>void testC() METHOD
+RefactoringAction 1444386743587 TestCell.java RENAME testC()=>void testCellWith() METHOD
+RefactoringAction 1444386756101 TestCell.java RENAME testCellWith()=>void testCellWithmore() METHOD
+RefactoringAction 1444386759114 TestCell.java RENAME testCellWithmore()=>void testCellWithmoreThan() METHOD
+RefactoringAction 1444386760127 TestCell.java RENAME testCellWithmoreThan()=>void testCellWithmoreThanT() METHOD
+RefactoringAction 1444386762141 TestCell.java RENAME testCellWithmoreThanT()=>void testCellWithmoreThanThree() METHOD
+RefactoringAction 1444386765154 TestCell.java RENAME testCellWithmoreThanThree()=>void testCellWithmoreThanThreeLive() METHOD
+RefactoringAction 1444386768668 TestCell.java RENAME testCellWithmoreThanThreeLive()=>void testCellWithmoreThanThreeLiveN() METHOD
+RefactoringAction 1444386770182 TestCell.java RENAME testCellWithmoreThanThreeLiveN()=>void testCellWithmoreThanThreeLiveNei() METHOD
+RefactoringAction 1444386772196 TestCell.java RENAME testCellWithmoreThanThreeLiveNei()=>void testCellWithmoreThanThreeLiveNeigh() METHOD
+RefactoringAction 1444386774210 TestCell.java RENAME testCellWithmoreThanThreeLiveNeigh()=>void testCellWithmoreThanThreeLiveNeighbors() METHOD
+RefactoringAction 1444386775224 TestCell.java RENAME testCellWithmoreThanThreeLiveNeighbors()=>void testCellWithmoreThanThreeLiveNeighborsD() METHOD
+RefactoringAction 1444386776737 TestCell.java RENAME testCellWithmoreThanThreeLiveNeighborsD()=>void testCellWithmoreThanThreeLiveNeighborsDie() METHOD
+RefactoringAction 1444386778251 TestCell.java RENAME testCellWithmoreThanThreeLiveNeighborsDie()=>void testCellWithmoreThanThreeLiveNeighborsDies() METHOD
+EditAction 1444386835959 TestCell.java 767 3 9 3

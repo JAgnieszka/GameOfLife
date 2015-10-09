@@ -27,6 +27,14 @@ public class TestCell {
 		assertEquals("Alive", cell.getState());
 	}
 	
-	
+	@Test
+	public void testCellWithmoreThanThreeLiveNeighborsDies() {
+		//arrange
+		Cell cell =new Cell("Alive");
+		//
+		cell.nextIteration(5);
+		//assert
+		assertEquals("Dead", cell.getState());
+	}
 
 }

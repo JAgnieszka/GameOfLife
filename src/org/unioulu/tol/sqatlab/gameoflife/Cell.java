@@ -8,8 +8,10 @@ public class Cell {
 	}
 
 	public void nextIteration(int numberOfLiveCells) {
-		
-		
+		if(state=="Alive" && numberOfLiveCells <2){
+			state= "Dead";
+		}
+		else state= "Alive";
 	}
 
 	public Object getState() {

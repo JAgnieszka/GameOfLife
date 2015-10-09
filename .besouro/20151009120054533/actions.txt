@@ -41,3 +41,4 @@ RefactoringAction 1444382868977 Cell.java RENAME nextIteration()=>void nextItera
 EditAction 1444382909418 TestCell.java 569 2 6 2
 CompilationAction 1444382909678 TestCell.java
 EditAction 1444382912921 Cell.java 269 3 2 0
+EditAction 1444382997024 Cell.java 354 3 3 0

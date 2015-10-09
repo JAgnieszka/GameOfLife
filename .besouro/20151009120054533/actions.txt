@@ -1,0 +1,17 @@
+FileOpenedAction 1444381254834 TestGrid.java 199 1 1 0
+RefactoringAction 1444382204940 TestCell.java RENAME test()=>void test FIELD
+RefactoringAction 1444382211460 TestCell.java RENAME test()=>void testLi() METHOD
+RefactoringAction 1444382215470 TestCell.java RENAME testLi()=>void testLiveCe() METHOD
+RefactoringAction 1444382220980 TestCell.java RENAME testLiveCe()=>void testLiveCellWith() METHOD
+RefactoringAction 1444382222991 TestCell.java RENAME testLiveCellWith()=>void testLiveCellWithNo() METHOD
+RefactoringAction 1444382227502 TestCell.java RENAME testLiveCellWithNo()=>void testLiveCellWithNoNeiber() METHOD
+RefactoringAction 1444382228513 TestCell.java RENAME testLiveCellWithNoNeiber()=>void testLiveCellWithNoNeiberho() METHOD
+RefactoringAction 1444382232023 TestCell.java RENAME testLiveCellWithNoNeiberho()=>void testLiveCellWithNoNeiberhod() METHOD
+RefactoringAction 1444382234534 TestCell.java RENAME testLiveCellWithNoNeiberhod()=>void testLiveCellWithNoNeiberhodS() METHOD
+RefactoringAction 1444382236044 TestCell.java RENAME testLiveCellWithNoNeiberhodS()=>void testLiveCellWithNoNeiberhodShou() METHOD
+RefactoringAction 1444382239554 TestCell.java RENAME testLiveCellWithNoNeiberhodShou()=>void testLiveCellWithNoNeiberhodShouldDie() METHOD
+RefactoringAction 1444382280610 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444382451017 Cell.java ADD Cell(String) METHOD
+RefactoringAction 1444382461551 Cell.java ADD void nextIteration() METHOD
+RefactoringAction 1444382467540 Cell.java ADD Object getState() METHOD
+EditAction 1444382484899 Cell.java 305 3 1 0

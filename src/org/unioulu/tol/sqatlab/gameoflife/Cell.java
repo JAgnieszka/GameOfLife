@@ -7,7 +7,7 @@ public class Cell {
 		this.state=initialState;
 	}
 
-	public void nextIteration() {
+	public void nextIteration(int numberOfLiveCells) {
 		
 		
 	}

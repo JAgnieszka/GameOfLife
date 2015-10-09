@@ -154,3 +154,4 @@ RefactoringAction 1444386775224 TestCell.java RENAME testCellWithmoreThanThreeLi
 RefactoringAction 1444386776737 TestCell.java RENAME testCellWithmoreThanThreeLiveNeighborsD()=>void testCellWithmoreThanThreeLiveNeighborsDie() METHOD
 RefactoringAction 1444386778251 TestCell.java RENAME testCellWithmoreThanThreeLiveNeighborsDie()=>void testCellWithmoreThanThreeLiveNeighborsDies() METHOD
 EditAction 1444386835959 TestCell.java 767 3 9 3
+EditAction 1444388105049 Cell.java 971 8 19 0

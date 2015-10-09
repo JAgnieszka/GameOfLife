@@ -100,3 +100,11 @@ RefactoringAction 1444383857439 TestGrid.java RENAME testTwoNeighborsCellsShould
 RefactoringAction 1444383859454 TestGrid.java RENAME testTwoNeighborsCellsShouldHaveOneNei()=>void testTwoNeighborsCellsShouldHaveOneNeigh() METHOD
 RefactoringAction 1444383861970 TestGrid.java RENAME testTwoNeighborsCellsShouldHaveOneNeigh()=>void testTwoNeighborsCellsShouldHaveOneNeighbor() METHOD
 EditAction 1444383862993 TestGrid.java 776 2 12 2
+RefactoringAction 1444384636657 Grid.java ADD Set<Cell> ce FIELD
+RefactoringAction 1444384638670 Grid.java RENAME ce=>Set<Cell> cell FIELD
+RefactoringAction 1444384639681 Grid.java RENAME cell=>Set<Cell> cells FIELD
+RefactoringAction 1444384650243 Grid.java ADD import java.util.HashSet IMPORT
+RefactoringAction 1444384656264 Grid.java ADD import java.util.Set IMPORT
+RefactoringAction 1444384733313 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444384733315 Cell.java ADD boolean equals(Object) METHOD
+EditAction 1444384736146 Cell.java 876 6 17 0

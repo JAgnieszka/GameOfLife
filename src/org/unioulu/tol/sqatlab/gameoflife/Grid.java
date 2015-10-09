@@ -12,12 +12,13 @@ public class Grid {
 //		Set<Cell> neighbours =new HashSet<Cell>();
 		Set<Cell> neighbourhood =new HashSet<Cell>();
 
-		for(int i=-1; i<=1; i++){
-			Cell neighbor=new Cell(cell.x, cell.y+1);
+		for(int dx=-1; dx<=1; dx++){
+			for(int dy=-1; dy<=1; dy++){
+			Cell neighbor=new Cell(cell.x+dx, cell.y+dy);
 			if(cells.contains(neighbor)){
 				 numNeighbors++;
 			}
-		}
+		}}
 		
 		return numNeighbors-1;
 	}

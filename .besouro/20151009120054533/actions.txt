@@ -95,3 +95,8 @@ RefactoringAction 1444383786286 TestGrid.java RENAME testTwoNeighborsCellsShould
 RefactoringAction 1444383787301 TestGrid.java RENAME testTwoNeighborsCellsShouldHave()=>void testTwoNeighborsCellsShouldHaveO() METHOD
 RefactoringAction 1444383789816 TestGrid.java RENAME testTwoNeighborsCellsShouldHaveO()=>void testTwoNeighborsCellsShouldHaveOne() METHOD
 EditAction 1444383795482 TestGrid.java 768 2 12 2
+RefactoringAction 1444383855924 TestGrid.java RENAME testTwoNeighborsCellsShouldHaveOne()=>void testTwoNeighborsCellsShouldHaveOneN() METHOD
+RefactoringAction 1444383857439 TestGrid.java RENAME testTwoNeighborsCellsShouldHaveOneN()=>void testTwoNeighborsCellsShouldHaveOneNei() METHOD
+RefactoringAction 1444383859454 TestGrid.java RENAME testTwoNeighborsCellsShouldHaveOneNei()=>void testTwoNeighborsCellsShouldHaveOneNeigh() METHOD
+RefactoringAction 1444383861970 TestGrid.java RENAME testTwoNeighborsCellsShouldHaveOneNeigh()=>void testTwoNeighborsCellsShouldHaveOneNeighbor() METHOD
+EditAction 1444383862993 TestGrid.java 776 2 12 2

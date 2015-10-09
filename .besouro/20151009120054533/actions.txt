@@ -42,3 +42,8 @@ EditAction 1444382909418 TestCell.java 569 2 6 2
 CompilationAction 1444382909678 TestCell.java
 EditAction 1444382912921 Cell.java 269 3 2 0
 EditAction 1444382997024 Cell.java 354 3 3 0
+UnitTestCaseAction 1444382999946 TestCell.java OK
+UnitTestSessionAction 1444382999946 TestCell OK
+RefactoringAction 1444383057349 TestCell.java ADD void testLiveCellWithNoNeiberhodShouldLive()/2 METHOD
+RefactoringAction 1444383070365 TestCell.java REMOVE testLiveCellWithNoNeiberhodShouldLive()/2 METHOD
+EditAction 1444383077169 TestCell.java 573 2 6 2

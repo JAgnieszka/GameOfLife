@@ -77,3 +77,5 @@ EditAction 1444383654915 TestGrid.java 471 1 5 1
 RefactoringAction 1444383672717 TestGrid.java ADD void testSingleCellOnGridHasNoNeighbors()/2 METHOD
 RefactoringAction 1444383679734 TestGrid.java RENAME testSingleCellOnGridHasNoNeighbors()/2=>void testSingleCellOnGridHasNeighbors() METHOD
 EditAction 1444383734316 TestGrid.java 766 2 12 2
+RefactoringAction 1444383740555 TestGrid.java RENAME testSingleCellOnGridHasNeighbors()=>void testSingleCellOnGridHasOneNeighbors() METHOD
+EditAction 1444383741131 TestGrid.java 769 2 12 2

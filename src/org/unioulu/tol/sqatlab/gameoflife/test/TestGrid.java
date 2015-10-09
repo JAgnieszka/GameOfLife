@@ -21,7 +21,7 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void testSingleCellOnGridHasNeighbors() {
+	public void testSingleCellOnGridHasOneNeighbors() {
 		//arrange
 		Grid grid =new Grid();
 		Cell cell1= new Cell(0,0);

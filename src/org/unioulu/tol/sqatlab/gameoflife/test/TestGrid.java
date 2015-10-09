@@ -49,7 +49,6 @@ public class TestGrid {
 
 		int numNeighbors = grid.getNeighbors(cell1);
 
-		
 		assertEquals(1, numNeighbors);
 		
 	}

@@ -47,3 +47,11 @@ UnitTestSessionAction 1444382999946 TestCell OK
 RefactoringAction 1444383057349 TestCell.java ADD void testLiveCellWithNoNeiberhodShouldLive()/2 METHOD
 RefactoringAction 1444383070365 TestCell.java REMOVE testLiveCellWithNoNeiberhodShouldLive()/2 METHOD
 EditAction 1444383077169 TestCell.java 573 2 6 2
+RefactoringAction 1444383148068 TestGrid.java RENAME test()=>void testSingle() METHOD
+RefactoringAction 1444383151078 TestGrid.java RENAME testSingle()=>void testSingleCell() METHOD
+RefactoringAction 1444383162380 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444383325282 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444383452290 Cell.java ADD Cell(int, int) METHOD
+RefactoringAction 1444383473217 Cell.java ADD int x FIELD
+RefactoringAction 1444383473218 Cell.java ADD int y FIELD
+EditAction 1444383500325 Cell.java 423 4 5 0

@@ -34,3 +34,8 @@ RefactoringAction 1444382673510 Cell.java ADD String state FIELD
 UnitTestCaseAction 1444382749820 TestCell.java FAIL
 UnitTestSessionAction 1444382749821 TestCell FAIL
 EditAction 1444382843594 TestCell.java 568 2 6 2
+CompilationAction 1444382843839 TestCell.java
+RefactoringAction 1444382860035 Cell.java RENAME nextIteration()=>void nextIteration(int) METHOD
+RefactoringAction 1444382867967 Cell.java RENAME nextIteration(int)=>void nextIteration() METHOD
+RefactoringAction 1444382868977 Cell.java RENAME nextIteration()=>void nextIteration(int) METHOD
+EditAction 1444382909418 TestCell.java 569 2 6 2

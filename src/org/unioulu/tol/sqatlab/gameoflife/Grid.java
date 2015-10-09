@@ -5,15 +5,14 @@ import java.util.Set;
 
 public class Grid {
 
-	private Set<Cell> cells=new HashSet<Cell>();
-	
+	private Set<Cell> cells = new HashSet<Cell>();
+
 	public int getNeighbors(Cell cell) {
-		
+
 		return 0;
 	}
 
 	public void addCell(Cell cell) {
-		// TODO Auto-generated method stub
 		cells.add(cell);
 	}
 

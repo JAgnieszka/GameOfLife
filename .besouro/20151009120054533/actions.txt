@@ -59,3 +59,15 @@ EditAction 1444383504917 TestGrid.java 415 1 4 1
 CompilationAction 1444383505160 TestGrid.java
 RefactoringAction 1444383514808 Grid.java ADD int getNeighbors(Cell) METHOD
 EditAction 1444383523941 Grid.java 125 1 1 0
+UnitTestCaseAction 1444383528047 TestCell.java OK
+UnitTestSessionAction 1444383528047 TestCell OK
+UnitTestCaseAction 1444383532630 TestGrid.java OK
+UnitTestSessionAction 1444383532632 TestGrid OK
+RefactoringAction 1444383569760 TestGrid.java RENAME testSingleCell()=>void testSingleCellOn() METHOD
+RefactoringAction 1444383573272 TestGrid.java RENAME testSingleCellOn()=>void testSingleCellOnGridHas() METHOD
+RefactoringAction 1444383574284 TestGrid.java RENAME testSingleCellOnGridHas()=>void testSingleCellOnGridHasNo() METHOD
+RefactoringAction 1444383575795 TestGrid.java RENAME testSingleCellOnGridHasNo()=>void testSingleCellOnGridHasNoNe() METHOD
+RefactoringAction 1444383577808 TestGrid.java RENAME testSingleCellOnGridHasNoNe()=>void testSingleCellOnGridHasNoNeig() METHOD
+RefactoringAction 1444383578820 TestGrid.java RENAME testSingleCellOnGridHasNoNeig()=>void testSingleCellOnGridHasNoNeigh() METHOD
+RefactoringAction 1444383581332 TestGrid.java RENAME testSingleCellOnGridHasNoNeigh()=>void testSingleCellOnGridHasNoNeighbors() METHOD
+EditAction 1444383581797 TestGrid.java 435 1 4 1

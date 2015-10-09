@@ -56,3 +56,6 @@ RefactoringAction 1444383473217 Cell.java ADD int x FIELD
 RefactoringAction 1444383473218 Cell.java ADD int y FIELD
 EditAction 1444383500325 Cell.java 423 4 5 0
 EditAction 1444383504917 TestGrid.java 415 1 4 1
+CompilationAction 1444383505160 TestGrid.java
+RefactoringAction 1444383514808 Grid.java ADD int getNeighbors(Cell) METHOD
+EditAction 1444383523941 Grid.java 125 1 1 0

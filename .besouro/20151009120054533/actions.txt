@@ -18,3 +18,9 @@ EditAction 1444382484899 Cell.java 305 3 1 0
 RefactoringAction 1444382521931 Cell.java ADD Object getState()/2 METHOD
 EditAction 1444382528049 Cell.java 305 3 1 0
 EditAction 1444382530268 TestCell.java 374 1 3 1
+RefactoringAction 1444382537444 TestCell.java ADD void testLiveCellWithNoNeiberhodShouldDie()/2 METHOD
+RefactoringAction 1444382567476 TestCell.java RENAME testLiveCellWithNoNeiberhodShouldDie()/2=>void testLiveCellWithNoNeiberhodShouldDe() METHOD
+RefactoringAction 1444382569491 TestCell.java RENAME testLiveCellWithNoNeiberhodShouldDe()=>void testLiveCellWithNoNeiberhodShoul() METHOD
+RefactoringAction 1444382570507 TestCell.java RENAME testLiveCellWithNoNeiberhodShoul()=>void testLiveCellWithNoNeiberhodShould() METHOD
+RefactoringAction 1444382576024 TestCell.java RENAME testLiveCellWithNoNeiberhodShould()=>void testLiveCellWithNoNeiberhodShouldLive() METHOD
+EditAction 1444382576788 TestCell.java 567 2 6 2

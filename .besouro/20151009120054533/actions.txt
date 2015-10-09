@@ -24,3 +24,13 @@ RefactoringAction 1444382569491 TestCell.java RENAME testLiveCellWithNoNeiberhod
 RefactoringAction 1444382570507 TestCell.java RENAME testLiveCellWithNoNeiberhodShoul()=>void testLiveCellWithNoNeiberhodShould() METHOD
 RefactoringAction 1444382576024 TestCell.java RENAME testLiveCellWithNoNeiberhodShould()=>void testLiveCellWithNoNeiberhodShouldLive() METHOD
 EditAction 1444382576788 TestCell.java 567 2 6 2
+UnitTestCaseAction 1444382582990 TestCell.java FAIL
+UnitTestSessionAction 1444382582990 TestCell.testLiveCellWithNoNeiberhodShouldLive FAIL
+UnitTestCaseAction 1444382610439 TestCell.java FAIL
+UnitTestSessionAction 1444382610439 TestCell.testLiveCellWithNoNeiberhodShouldLive FAIL
+UnitTestCaseAction 1444382623899 TestCell.java FAIL
+UnitTestSessionAction 1444382623901 TestCell FAIL
+RefactoringAction 1444382673510 Cell.java ADD String state FIELD
+UnitTestCaseAction 1444382749820 TestCell.java FAIL
+UnitTestSessionAction 1444382749821 TestCell FAIL
+EditAction 1444382843594 TestCell.java 568 2 6 2
